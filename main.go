@@ -1,6 +1,10 @@
 package temporary
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/david-yappeter/temporary/inside"
+)
 
 var (
 	A int
@@ -15,4 +19,5 @@ func init() {
 
 func PrintVal() {
 	fmt.Println(A, B)
+	inside.NeedSomething()
 }
