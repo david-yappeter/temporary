@@ -4,9 +4,9 @@ import 'package:tugas_2/screens/profile_detail.dart';
 class ProfileScreen extends StatelessWidget {
   static const routeName = '/profile';
 
-  final String name = 'Nama Kamu';
+  final String name = 'David Yappeter';
   final String desc =
-      'Aute enim elit elit excepteur labore duis ea laboris dolor do tempor. Dolor ex sit magna minim officia pariatur sint ut sit proident aliqua. Ullamco magna minim elit veniam laborum et cupidatat fugiat deserunt';
+      'Saya sedang menempuh studi S1 Teknik Informatika di Universitas Mikroskil, dengan pengalaman kerja sebagai backend developer dan sekarang sebagai frontend developer.';
 
   const ProfileScreen({Key? key}) : super(key: key);
 
